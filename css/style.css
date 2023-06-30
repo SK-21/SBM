@@ -972,11 +972,12 @@ label.error {
 	}
 }
 .sl-1{
-	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.1.421652959.1676382370&semt=ais');
+	/* background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.1.421652959.1676382370&semt=ais'); */
+background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), url('https://images.pexels.com/photos/6634140/pexels-photo-6634140.jpeg?auto=compress&cs=tinysrgb&w=1600');
 }
 
 .sl-2{
-	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.8)), url('/img/pr-bg.jpg');
+	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.8)), url('https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1600');
 }
 .sl-3{
 	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.8)), url('https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=1600');
@@ -985,7 +986,7 @@ label.error {
 	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.8)), url('https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=1600');
 }
 .sl-5{
-	background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+	background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.8)),url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=1080')  ;
 }
 
 .content a {
