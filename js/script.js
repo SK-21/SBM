@@ -61,7 +61,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['Intro', 'Services', 'Projects', 'Awards', 'Experience', 'Clients', 'Testimonials', 'Contact'],
+			anchors: ['SBM-Group-International', 'SBM-Corp', 'SBM-Consulting', 'Srimply-Media', 'Educasm', 'Contact'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {
