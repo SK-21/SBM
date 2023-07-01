@@ -964,6 +964,7 @@ label.error {
 /*-------------------------------------------------------------------------------
   4. Home Personal
 -------------------------------------------------------------------------------*/
+.slide-descr{text-transform: capitalize;}
 .brand img{
 	width:240px;
 }
@@ -977,6 +978,8 @@ label.error {
 		font-weight: 700;
 		margin: 0 auto;
 	}
+}
+.sl-11{background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.1.421652959.1676382370&semt=ais');
 }
 .sl-1{
 	/* background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), url('https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?size=626&ext=jpg&ga=GA1.1.421652959.1676382370&semt=ais'); */
@@ -1113,8 +1116,12 @@ background:linear-gradient(0deg, rgba(38, 13, 28, 0.8), rgba(16, 9, 13, 0.4)), u
 
 @media (min-width: 768px) {
 	.slide-title {
-		font-size: 77px;
+		font-size: 90px;
 		font-weight: 800;
+	}
+	.exlg{
+		font-size: 27px!important;
+		font-weight: 600;
 	}
 }
 
