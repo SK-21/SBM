@@ -678,10 +678,10 @@ label.error {
   color: inherit;
   text-decoration: none;
 }
-
+/* 
 .phone-link {
   cursor: default;
-}
+} */
 
 .nav-toggle-btn {
   background: none;
@@ -962,6 +962,7 @@ label.error {
 /*-------------------------------------------------------------------------------
   4. Home Personal
 -------------------------------------------------------------------------------*/
+
 .slide-descr {
   text-transform: capitalize;
 }
@@ -969,6 +970,9 @@ label.error {
   width: 39%;
 }
 @media (max-width: 599px) {
+	a.text-primary,.phone-link{
+		font-size: 12px;
+	}
 
   .sl-2,
   .sl-3,
