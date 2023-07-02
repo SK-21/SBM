@@ -969,7 +969,7 @@ label.error {
 	width:39%;
 }
 @media(max-width:599px){
-	.sl-1,.sl-2,.sl-3,.sl-4,.sl-5,.sl-11{background-size:cover ;}
+	.sl-1,.sl-2,.sl-3,.sl-4,.sl-5,.sl-11{background-size:cover!important;background-position:center!important;}
 	.brand img{
 		width:170px;
 	}
