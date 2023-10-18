@@ -29,7 +29,46 @@
     <meta name="msapplication-TileColor" content="#000">
     <!-- <meta name="msapplication-config" content="img/favicons/browserconfig.xml"> -->
     <meta name="theme-color" content="#000">
+<style>
+  .header-shadow .header-bg {
+    height: 0%!important;}
+.down-arrow {
+cursor:pointer;
+    position: absolute;
+    top: calc(100vh - 245px);
+    left: calc(50% - 4px);
+    width: 0;
+    height: 29px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    animation: jumpInfinite 1.5s infinite;
+}
 
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+</style>
   </head>
 
   <body class="body-copyright-light">
@@ -100,9 +139,10 @@
                     <div class="animate-element delay5 fadeInUp">
                       <div class="slide-descr slide-descr-intro "> SBM Group International Is A Leading Global Media Company That Owns And Operates A Diverse Range Of Businesses Catering To Both B2B And B2C Markets. </div>
                       <div class="slide-btn">
-                          <a class="btn btn-success" href="#SBM-Corp" target="_blank">Our Companies</a>
+                          <a class="btn btn-success" href="#SBM-Corp" >Our Companies</a>
                       </div>
                     </div>
+                    <a class="" href="#SBM-Corp"><span class="down-arrow"> </span></a>
                   </div>
                 </div>
               </div>
