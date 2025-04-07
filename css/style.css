@@ -967,7 +967,7 @@ label.error {
   text-transform: capitalize;
 }
 .brand img {
-  width: 39%;
+  width: 33%;
 }
 @media (max-width: 599px) {
 	a.text-primary,.phone-link{
